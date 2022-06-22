@@ -26,7 +26,7 @@ def parse_text(texts, image_url):
 
     f = open('logs/'+result['_unik']+'-input.txt', "a")
     for text in texts:
-        f.write(text)
+        f.write(text+'\n')
     f.close()
 
     # Parse teams
