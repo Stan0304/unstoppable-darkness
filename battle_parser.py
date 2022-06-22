@@ -3,8 +3,8 @@ import json
 import os.path
 import re 
 
-heroes_position = ["Chabba","Aurora","Cleaver","Luther","Corvus","Ziri","Rufus","Astaroth","Galahad","Tristan","Ishmael","K'arkh","Markus","Elmir","Lilith","Andvari","Yasmine","Qing Mao","Satori","Middle Line","Alvanor","Maya","Arachne","Dante","Krista","Keira","Judge","Morrigan","Celeste","Kai","Jhu","Sebastian","Nebula","Mojo","Heidi","Jorgen","Xe'Sha","Isaac","Orion","Daredevil","Ginger","Darkstar","Lars","Astrid & Lucas","Cornelius","Faceless","Fox","Lian","Phobos","Artemis","Dorian","Peppy","Jet","Thea","Helios","Martha"]
-heroes_list_re = ".*(Aurora|Astaroth|Luther|Cleaver|Galahad|Andvari|Fafnir|Ziri|Rufus|Corvus|Chabba|Martha|Dorian|Markus|Thea|Celeste|Nebula|Jorgen|Faceless|Helios|Sebastian|Alvanor|Judge|Tristan|Morrigan|Isaac|Mojo|Lars|Krista|Satori|Lilith|Orion|Peppy|Arachne|Kai|K’arkh|Cornelius|Dark|Elmir|Daredevil|Ginger|Dante|Fox|Ishmael|Jhu|Artemis|Astrid|Keira|Yasmine|Qing|Maya|Lian|Phobos|Heidi).*"
+heroes_position = ["Chabba","Aurora","Cleaver","Luther","Corvus","Ziri","Rufus","Astaroth","Galahad","Tristan","Ishmael","K'arkh","Markus","Elmir","Lilith","Andvari","Yasmine","Qing Mao","Satori","Middle Line","Alvanor","Maya","Arachne","Dante","Krista","Keira","Judge","Morrigan","Celeste","Kai","Jhu","Sebastian","Nebula","Mojo","Heidi","Jorgen","Xe'Sha","Isaac","Orion","Daredevil","Ginger","Dark","Lars","Astrid","Cornelius","Faceless","Fox","Lian","Phobos","Artemis","Dorian","Peppy","Jet","Thea","Helios","Martha"]
+heroes_list_re = ".*(Chabba|Aurora|Cleaver|Luther|Corvus|Ziri|Rufus|Astaroth|Galahad|Tristan|Ishmael|K'arkh|Markus|Elmir|Lilith|Andvari|Yasmine|Qing Mao|Satori|Alvanor|Maya|Arachne|Dante|Krista|Keira|Judge|Morrigan|Celeste|Kai|Jhu|Sebastian|Nebula|Mojo|Heidi|Jorgen|Xe'Sha|Isaac|Orion|Daredevil|Ginger|Dark|Lars|Astrid|Cornelius|Faceless|Fox|Lian|Phobos|Artemis|Dorian|Peppy|Jet|Thea|Helios|Martha).*"
 
 def parse_text(texts, image_url):
     result = {
@@ -76,7 +76,7 @@ def get_team(result, texts, team):
             result[team]['heroes'].append({
                 'name': hero[0]
             })
-        
+
         i=i+2
 
 def get_power(result, texts, team, x_mid):
