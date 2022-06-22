@@ -3,8 +3,8 @@ import json
 import os.path
 import re 
 
-heroes_position = ["Chabba","Aurora","Cleaver","Luther","Corvus","Ziri","Rufus","Astaroth","Galahad","Tristan","Ishmael","K'arkh","Markus","Elmir","Lilith","Andvari","Yasmine","Qing Mao","Satori","Middle Line","Alvanor","Maya","Arachne","Dante","Krista","Keira","Judge","Morrigan","Celeste","Kai","Jhu","Sebastian","Nebula","Mojo","Heidi","Jorgen","Xe'Sha","Isaac","Orion","Daredevil","Ginger","Dark","Lars","Astrid","Cornelius","Faceless","Fox","Lian","Phobos","Artemis","Dorian","Peppy","Jet","Thea","Helios","Martha"]
-heroes_list_re = ".*(Chabba|Aurora|Cleaver|Luther|Corvus|Ziri|Rufus|Astaroth|Galahad|Tristan|Ishmael|K'arkh|Markus|Elmir|Lilith|Andvari|Yasmine|Qing Mao|Satori|Alvanor|Maya|Arachne|Dante|Krista|Keira|Judge|Morrigan|Celeste|Kai|Jhu|Sebastian|Nebula|Mojo|Heidi|Jorgen|Xe'Sha|Isaac|Orion|Daredevil|Ginger|Dark|Lars|Astrid|Cornelius|Faceless|Fox|Lian|Phobos|Artemis|Dorian|Peppy|Jet|Thea|Helios|Martha).*"
+heroes_position = ["Chabba","Aurora","Cleaver","Luther","Corvus","Ziri","Rufus","Astaroth","Galahad","Tristan","Ishmael","K'arkh","Markus","Elmir","Lilith","Andvari","Yasmine","Qing","Satori","Alvanor","Maya","Arachne","Dante","Krista","Keira","Judge","Morrigan","Celeste","Kai","Jhu","Sebastian","Nebula","Mojo","Heidi","Jorgen","Xe'Sha","Isaac","Orion","Daredevil","Ginger","Dark","Lars","Astrid","Cornelius","Faceless","Fox","Lian","Phobos","Artemis","Dorian","Peppy","Jet","Thea","Helios","Martha"]
+heroes_list_re = ".*(Chabba|Aurora|Cleaver|Luther|Corvus|Ziri|Rufus|Astaroth|Galahad|Tristan|Ishmael|K'arkh|Markus|Elmir|Lilith|Andvari|Yasmine|Qing|Satori|Alvanor|Maya|Arachne|Dante|Krista|Keira|Judge|Morrigan|Celeste|Kai|Jhu|Sebastian|Nebula|Mojo|Heidi|Jorgen|Xe'Sha|Isaac|Orion|Daredevil|Ginger|Dark|Lars|Astrid|Cornelius|Faceless|Fox|Lian|Phobos|Artemis|Dorian|Peppy|Jet|Thea|Helios|Martha).*"
 
 def parse_text(texts, image_url):
     result = {
