@@ -20,8 +20,9 @@ async def on_message(message):
     try:
         if message.content.startswith('/ud'):
             await message.channel.send(ud_submit.process(message))
-    except Exception as e:
+    except Exception:
         traceback.print_exc()
-        await message.channel.send(str(e))
+        error = traceback.format_exc()
+        await message.channel.send(error)
 
 client.run(os.getenv('TOKEN'))
