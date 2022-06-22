@@ -1,0 +1,58 @@
+{
+    "_image_url": "local",
+    "_unik": "bb057647e7a1876fe6abbc8bc0818d1a9283216c630e93e45f98697bfeee3677",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Orion",
+                "power": "77069"
+            },
+            {
+                "name": "Luther",
+                "power": "75735"
+            },
+            {
+                "name": "Dorian",
+                "power": "72123"
+            },
+            {
+                "name": "Andvari",
+                "power": "72652"
+            },
+            {
+                "name": "Helios",
+                "power": "85424"
+            }
+        ],
+        "index": " Luther Andvari Orion Dorian Helios",
+        "power": 383,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Cornelius",
+                "power": "63171"
+            },
+            {
+                "name": "Aurora",
+                "power": "71380"
+            },
+            {
+                "name": "Nebula",
+                "power": "79178"
+            },
+            {
+                "name": "Martha",
+                "power": "39795"
+            },
+            {
+                "name": "Thea",
+                "power": "47172"
+            }
+        ],
+        "index": " Aurora Nebula Cornelius Thea Martha",
+        "power": 300,
+        "result": "Victory"
+    }
+}

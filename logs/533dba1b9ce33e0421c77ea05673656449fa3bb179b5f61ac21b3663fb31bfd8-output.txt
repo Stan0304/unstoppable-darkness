@@ -1,0 +1,54 @@
+{
+    "_image_url": "https://media.discordapp.net/attachments/988510802506022975/989139771551019048/unknown.png",
+    "_unik": "533dba1b9ce33e0421c77ea05673656449fa3bb179b5f61ac21b3663fb31bfd8",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Daredevil",
+                "power": "104084"
+            },
+            {
+                "name": "Dark",
+                "power": "83472"
+            },
+            {
+                "name": "Elmir",
+                "power": "104193"
+            },
+            {
+                "name": "Sebastian",
+                "power": "91157"
+            }
+        ],
+        "index": " Elmir Sebastian Daredevil",
+        "power": 382,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Yasmine",
+                "power": "95786"
+            },
+            {
+                "name": "Sebastian",
+                "power": "109525"
+            },
+            {
+                "name": "Elmir",
+                "power": "88071"
+            },
+            {
+                "name": "Astaroth",
+                "power": "102043"
+            },
+            {
+                "name": "Dorian",
+                "power": "94377"
+            }
+        ],
+        "index": " Astaroth Elmir Yasmine Sebastian Dorian",
+        "power": 489,
+        "result": "Victory"
+    }
+}
