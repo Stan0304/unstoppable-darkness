@@ -1,0 +1,742 @@
+{
+    "_image_url": "https://media.discordapp.net/attachments/795675024593125406/930837291709128854/IMG_0151.png?width=1343&height=621",
+    "_unik": "f2ff1145ac442f6079f5f4cf8a235b347914a395aec517ae4c623ed0b0503ea2",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Ishmael",
+                "power": "105754"
+            },
+            {
+                "name": "Sebastian",
+                "power": "85861"
+            },
+            {
+                "name": "Astaroth",
+                "power": "95125"
+            },
+            {
+                "name": "Martha",
+                "power": "74738"
+            },
+            {
+                "name": "Jorgen",
+                "power": "68086"
+            }
+        ],
+        "index": " Astaroth Ishmael Sebastian Jorgen Martha",
+        "power": 429,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Krista",
+                "power": "103930"
+            },
+            {
+                "name": "Lars",
+                "power": "103667"
+            },
+            {
+                "name": "Jorgen",
+                "power": "103745"
+            },
+            {
+                "name": "Astaroth",
+                "power": "103873"
+            },
+            {
+                "name": "Celeste",
+                "power": "37786"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 453,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://media.discordapp.net/attachments/795675024593125406/930837291709128854/IMG_0151.png?width=1343&height=621",
+    "_unik": "f2ff1145ac442f6079f5f4cf8a235b347914a395aec517ae4c623ed0b0503ea2",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Ishmael",
+                "power": "105754"
+            },
+            {
+                "name": "Sebastian",
+                "power": "85861"
+            },
+            {
+                "name": "Astaroth",
+                "power": "95125"
+            },
+            {
+                "name": "Martha",
+                "power": "74738"
+            },
+            {
+                "name": "Jorgen",
+                "power": "68086"
+            }
+        ],
+        "index": " Astaroth Ishmael Sebastian Jorgen Martha",
+        "power": 429,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Krista",
+                "power": "103930"
+            },
+            {
+                "name": "Lars",
+                "power": "103667"
+            },
+            {
+                "name": "Jorgen",
+                "power": "103745"
+            },
+            {
+                "name": "Astaroth",
+                "power": "103873"
+            },
+            {
+                "name": "Celeste",
+                "power": "37786"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 453,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://media.discordapp.net/attachments/795675024593125406/930837291709128854/IMG_0151.png?width=1343&height=621",
+    "_unik": "f2ff1145ac442f6079f5f4cf8a235b347914a395aec517ae4c623ed0b0503ea2",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Ishmael",
+                "power": "105754"
+            },
+            {
+                "name": "Sebastian",
+                "power": "85861"
+            },
+            {
+                "name": "Astaroth",
+                "power": "95125"
+            },
+            {
+                "name": "Martha",
+                "power": "74738"
+            },
+            {
+                "name": "Jorgen",
+                "power": "68086"
+            }
+        ],
+        "index": " Astaroth Ishmael Sebastian Jorgen Martha",
+        "power": 429,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Krista",
+                "power": "103930"
+            },
+            {
+                "name": "Lars",
+                "power": "103667"
+            },
+            {
+                "name": "Jorgen",
+                "power": "103745"
+            },
+            {
+                "name": "Astaroth",
+                "power": "103873"
+            },
+            {
+                "name": "Celeste",
+                "power": "37786"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 453,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://media.discordapp.net/attachments/795675024593125406/930837291709128854/IMG_0151.png?width=1343&height=621",
+    "_unik": "f2ff1145ac442f6079f5f4cf8a235b347914a395aec517ae4c623ed0b0503ea2",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Ishmael",
+                "power": "105754"
+            },
+            {
+                "name": "Sebastian",
+                "power": "85861"
+            },
+            {
+                "name": "Astaroth",
+                "power": "95125"
+            },
+            {
+                "name": "Martha",
+                "power": "74738"
+            },
+            {
+                "name": "Jorgen",
+                "power": "68086"
+            }
+        ],
+        "index": " Astaroth Ishmael Sebastian Jorgen Martha",
+        "power": 429,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Krista",
+                "power": "103930"
+            },
+            {
+                "name": "Lars",
+                "power": "103667"
+            },
+            {
+                "name": "Jorgen",
+                "power": "103745"
+            },
+            {
+                "name": "Astaroth",
+                "power": "103873"
+            },
+            {
+                "name": "Celeste",
+                "power": "37786"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 453,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://media.discordapp.net/attachments/795675024593125406/930837291709128854/IMG_0151.png?width=1343&height=621",
+    "_unik": "f2ff1145ac442f6079f5f4cf8a235b347914a395aec517ae4c623ed0b0503ea2",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Ishmael",
+                "power": "105754"
+            },
+            {
+                "name": "Sebastian",
+                "power": "85861"
+            },
+            {
+                "name": "Astaroth",
+                "power": "95125"
+            },
+            {
+                "name": "Martha",
+                "power": "74738"
+            },
+            {
+                "name": "Jorgen",
+                "power": "68086"
+            }
+        ],
+        "index": " Astaroth Ishmael Sebastian Jorgen Martha",
+        "power": 429,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Krista",
+                "power": "103930"
+            },
+            {
+                "name": "Lars",
+                "power": "103667"
+            },
+            {
+                "name": "Jorgen",
+                "power": "103745"
+            },
+            {
+                "name": "Astaroth",
+                "power": "103873"
+            },
+            {
+                "name": "Celeste",
+                "power": "37786"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 453,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://media.discordapp.net/attachments/795675024593125406/930837291709128854/IMG_0151.png?width=1343&height=621",
+    "_unik": "f2ff1145ac442f6079f5f4cf8a235b347914a395aec517ae4c623ed0b0503ea2",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Ishmael",
+                "power": "105754"
+            },
+            {
+                "name": "Sebastian",
+                "power": "85861"
+            },
+            {
+                "name": "Astaroth",
+                "power": "95125"
+            },
+            {
+                "name": "Martha",
+                "power": "74738"
+            },
+            {
+                "name": "Jorgen",
+                "power": "68086"
+            }
+        ],
+        "index": " Astaroth Ishmael Sebastian Jorgen Martha",
+        "power": 429,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Krista",
+                "power": "103930"
+            },
+            {
+                "name": "Lars",
+                "power": "103667"
+            },
+            {
+                "name": "Jorgen",
+                "power": "103745"
+            },
+            {
+                "name": "Astaroth",
+                "power": "103873"
+            },
+            {
+                "name": "Celeste",
+                "power": "37786"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 453,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://media.discordapp.net/attachments/795675024593125406/930837291709128854/IMG_0151.png?width=1343&height=621",
+    "_unik": "f2ff1145ac442f6079f5f4cf8a235b347914a395aec517ae4c623ed0b0503ea2",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Ishmael",
+                "power": "105754"
+            },
+            {
+                "name": "Sebastian",
+                "power": "85861"
+            },
+            {
+                "name": "Astaroth",
+                "power": "95125"
+            },
+            {
+                "name": "Martha",
+                "power": "74738"
+            },
+            {
+                "name": "Jorgen",
+                "power": "68086"
+            }
+        ],
+        "index": " Astaroth Ishmael Sebastian Jorgen Martha",
+        "power": 429,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Krista",
+                "power": "103930"
+            },
+            {
+                "name": "Lars",
+                "power": "103667"
+            },
+            {
+                "name": "Jorgen",
+                "power": "103745"
+            },
+            {
+                "name": "Astaroth",
+                "power": "103873"
+            },
+            {
+                "name": "Celeste",
+                "power": "37786"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 453,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://media.discordapp.net/attachments/795675024593125406/930837291709128854/IMG_0151.png?width=1343&height=621",
+    "_unik": "f2ff1145ac442f6079f5f4cf8a235b347914a395aec517ae4c623ed0b0503ea2",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Ishmael",
+                "power": "105754"
+            },
+            {
+                "name": "Sebastian",
+                "power": "85861"
+            },
+            {
+                "name": "Astaroth",
+                "power": "95125"
+            },
+            {
+                "name": "Martha",
+                "power": "74738"
+            },
+            {
+                "name": "Jorgen",
+                "power": "68086"
+            }
+        ],
+        "index": " Astaroth Ishmael Sebastian Jorgen Martha",
+        "power": 429,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Krista",
+                "power": "103930"
+            },
+            {
+                "name": "Lars",
+                "power": "103667"
+            },
+            {
+                "name": "Jorgen",
+                "power": "103745"
+            },
+            {
+                "name": "Astaroth",
+                "power": "103873"
+            },
+            {
+                "name": "Celeste",
+                "power": "37786"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 453,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://media.discordapp.net/attachments/795675024593125406/930837291709128854/IMG_0151.png?width=1343&height=621",
+    "_unik": "f2ff1145ac442f6079f5f4cf8a235b347914a395aec517ae4c623ed0b0503ea2",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Ishmael",
+                "power": "105754"
+            },
+            {
+                "name": "Sebastian",
+                "power": "85861"
+            },
+            {
+                "name": "Astaroth",
+                "power": "95125"
+            },
+            {
+                "name": "Martha",
+                "power": "74738"
+            },
+            {
+                "name": "Jorgen",
+                "power": "68086"
+            }
+        ],
+        "index": " Astaroth Ishmael Sebastian Jorgen Martha",
+        "power": 429,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Krista",
+                "power": "103930"
+            },
+            {
+                "name": "Lars",
+                "power": "103667"
+            },
+            {
+                "name": "Jorgen",
+                "power": "103745"
+            },
+            {
+                "name": "Astaroth",
+                "power": "103873"
+            },
+            {
+                "name": "Celeste",
+                "power": "37786"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 453,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://media.discordapp.net/attachments/795675024593125406/930837291709128854/IMG_0151.png?width=1343&height=621",
+    "_unik": "f2ff1145ac442f6079f5f4cf8a235b347914a395aec517ae4c623ed0b0503ea2",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Ishmael",
+                "power": "105754"
+            },
+            {
+                "name": "Sebastian",
+                "power": "85861"
+            },
+            {
+                "name": "Astaroth",
+                "power": "95125"
+            },
+            {
+                "name": "Martha",
+                "power": "74738"
+            },
+            {
+                "name": "Jorgen",
+                "power": "68086"
+            }
+        ],
+        "index": " Astaroth Ishmael Sebastian Jorgen Martha",
+        "power": 429,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Krista",
+                "power": "103930"
+            },
+            {
+                "name": "Lars",
+                "power": "103667"
+            },
+            {
+                "name": "Jorgen",
+                "power": "103745"
+            },
+            {
+                "name": "Astaroth",
+                "power": "103873"
+            },
+            {
+                "name": "Celeste",
+                "power": "37786"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 453,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://media.discordapp.net/attachments/795675024593125406/930837291709128854/IMG_0151.png?width=1343&height=621",
+    "_unik": "f2ff1145ac442f6079f5f4cf8a235b347914a395aec517ae4c623ed0b0503ea2",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Ishmael",
+                "power": "105754"
+            },
+            {
+                "name": "Sebastian",
+                "power": "85861"
+            },
+            {
+                "name": "Astaroth",
+                "power": "95125"
+            },
+            {
+                "name": "Martha",
+                "power": "74738"
+            },
+            {
+                "name": "Jorgen",
+                "power": "68086"
+            }
+        ],
+        "index": " Astaroth Ishmael Sebastian Jorgen Martha",
+        "power": 429,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Krista",
+                "power": "103930"
+            },
+            {
+                "name": "Lars",
+                "power": "103667"
+            },
+            {
+                "name": "Jorgen",
+                "power": "103745"
+            },
+            {
+                "name": "Astaroth",
+                "power": "103873"
+            },
+            {
+                "name": "Celeste",
+                "power": "37786"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 453,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://media.discordapp.net/attachments/795675024593125406/930837291709128854/IMG_0151.png?width=1343&height=621",
+    "_unik": "f2ff1145ac442f6079f5f4cf8a235b347914a395aec517ae4c623ed0b0503ea2",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Ishmael",
+                "power": "105754"
+            },
+            {
+                "name": "Sebastian",
+                "power": "85861"
+            },
+            {
+                "name": "Astaroth",
+                "power": "95125"
+            },
+            {
+                "name": "Martha",
+                "power": "74738"
+            },
+            {
+                "name": "Jorgen",
+                "power": "68086"
+            }
+        ],
+        "index": " Astaroth Ishmael Sebastian Jorgen Martha",
+        "power": 429,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Krista",
+                "power": "103930"
+            },
+            {
+                "name": "Lars",
+                "power": "103667"
+            },
+            {
+                "name": "Jorgen",
+                "power": "103745"
+            },
+            {
+                "name": "Astaroth",
+                "power": "103873"
+            },
+            {
+                "name": "Celeste",
+                "power": "37786"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 453,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://media.discordapp.net/attachments/795675024593125406/930837291709128854/IMG_0151.png?width=1343&height=621",
+    "_unik": "f2ff1145ac442f6079f5f4cf8a235b347914a395aec517ae4c623ed0b0503ea2",
+    "deffensive_team": {
+        "heroes": [
+            {
+                "name": "Ishmael",
+                "power": "105754"
+            },
+            {
+                "name": "Sebastian",
+                "power": "85861"
+            },
+            {
+                "name": "Astaroth",
+                "power": "95125"
+            },
+            {
+                "name": "Martha",
+                "power": "74738"
+            },
+            {
+                "name": "Jorgen",
+                "power": "68086"
+            }
+        ],
+        "index": " Astaroth Ishmael Sebastian Jorgen Martha",
+        "power": 429,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Krista",
+                "power": "103930"
+            },
+            {
+                "name": "Lars",
+                "power": "103667"
+            },
+            {
+                "name": "Jorgen",
+                "power": "103745"
+            },
+            {
+                "name": "Astaroth",
+                "power": "103873"
+            },
+            {
+                "name": "Celeste",
+                "power": "37786"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 453,
+        "result": "Victory"
+    }
+}

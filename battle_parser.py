@@ -3,8 +3,8 @@ import json
 import os.path
 import re 
 
-heroes_position = ["Chabba","Aurora","Cleaver","Luther","Corvus","Ziri","Rufus","Astaroth","Galahad","Tristan","Ishmael","K'arkh","Markus","Elmir","Lilith","Andvari","Yasmine","Qing","Satori","Alvanor","Maya","Arachne","Dante","Krista","Keira","Judge","Morrigan","Celeste","Kai","Jhu","Sebastian","Nebula","Mojo","Heidi","Jorgen","Xe'Sha","Isaac","Orion","Daredevil","Ginger","Dark","Lars","Astrid","Cornelius","Faceless","Fox","Lian","Phobos","Artemis","Dorian","Peppy","Jet","Thea","Helios","Martha"]
-heroes_list_re = ".*(Chabba|Aurora|Cleaver|Luther|Corvus|Ziri|Rufus|Astaroth|Galahad|Tristan|Ishmael|K'arkh|Markus|Elmir|Lilith|Andvari|Yasmine|Qing|Satori|Alvanor|Maya|Arachne|Dante|Krista|Keira|Judge|Morrigan|Celeste|Kai|Jhu|Sebastian|Nebula|Mojo|Heidi|Jorgen|Xe'Sha|Isaac|Orion|Daredevil|Ginger|Dark|Lars|Astrid|Cornelius|Faceless|Fox|Lian|Phobos|Artemis|Dorian|Peppy|Jet|Thea|Helios|Martha).*"
+heroes_position = ["Chabba","Aurora","Cleaver","Luther","Corvus","Ziri","Rufus","Astaroth","Galahad","Tristan","Ishmael","K'arkh","Markus","Elmir","Lilith","Andvari","Yasmine","Qing","Satori","Alvanor","Maya","Arachne","Dante","Krista","Keira","Judge","Morrigan","Celeste","Kai","Jhu","Sebastian","Nebula","Mojo","Heidi","Jorgen","Xe'Sha","Amira","Isaac","Orion","Daredevil","Ginger","Dark","Lars","Astrid","Cornelius","Faceless","Fox","Lian","Phobos","Artemis","Dorian","Peppy","Jet","Thea","Fafnir","Helios","Martha"]
+heroes_list_re = ".*(Chabba|Aurora|Cleaver|Luther|Corvus|Ziri|Rufus|Astaroth|Galahad|Tristan|Ishmael|K'arkh|Markus|Elmir|Lilith|Andvari|Yasmine|Qing|Satori|Alvanor|Maya|Arachne|Dante|Krista|Keira|Judge|Morrigan|Celeste|Kai|Jhu|Sebastian|Nebula|Mojo|Heidi|Jorgen|Xe'Sha|Amira|Isaac|Orion|Daredevil|Ginger|Dark|Lars|Astrid|Cornelius|Faceless|Fox|Lian|Phobos|Artemis|Dorian|Peppy|Jet|Thea|Fafnir|Helios|Martha).*"
 
 def parse_text(texts, image_url):
     result = {
@@ -20,10 +20,11 @@ def parse_text(texts, image_url):
     # Sha256 to test unik battle
     compute_unik(result, texts)
 
-    # log the input
-    if os.path.exists('logs/'+result['_unik']+'-input.txt'):
-        return {'message': 'battle already processed'}
+    # TODO: Raise error
+    #if os.path.exists('logs/'+result['_unik']+'-input.txt'):
+    #    return {'message': 'battle already processed'}
 
+    # log the input
     f = open('logs/'+result['_unik']+'-input.txt', "a")
     for text in texts:
         f.write(text+'\n')
