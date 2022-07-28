@@ -1,7 +1,7 @@
 {
     "_image_url": "https://cdn.discordapp.com/attachments/990174726276145212/990188597938380860/unknown.png",
     "_unik": "2a6fb885f305b52647170fdfc05e39a64370800441797a6efa3aa2e4c74cb4b6",
-    "deffensive_team": {
+    "defensive_team": {
         "heroes": [
             {
                 "name": "Ishmael",

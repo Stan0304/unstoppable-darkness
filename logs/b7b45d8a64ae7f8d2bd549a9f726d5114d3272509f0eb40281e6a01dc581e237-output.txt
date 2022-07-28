@@ -1,0 +1,465 @@
+{
+    "_image_url": "https://cdn.discordapp.com/attachments/988510802506022975/989190078205157506/unknown.png",
+    "_unik": "b7b45d8a64ae7f8d2bd549a9f726d5114d3272509f0eb40281e6a01dc581e237",
+    "defensive_team": {
+        "heroes": [
+            {
+                "name": "Lars",
+                "power": "94985"
+            },
+            {
+                "name": "Krista",
+                "power": "81742"
+            },
+            {
+                "name": "Jorgen",
+                "power": "82570"
+            },
+            {
+                "name": "Astaroth",
+                "power": "506"
+            },
+            {
+                "name": "Celeste",
+                "power": "94890"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 354,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Yasmine",
+                "power": "91309"
+            },
+            {
+                "name": "Elmir",
+                "power": "109525"
+            },
+            {
+                "name": "Sebastian",
+                "power": "88071"
+            },
+            {
+                "name": "Dorian",
+                "power": "94377"
+            },
+            {
+                "name": "Astaroth",
+                "power": "102043"
+            }
+        ],
+        "index": " Astaroth Elmir Yasmine Sebastian Dorian",
+        "power": 485,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://cdn.discordapp.com/attachments/988510802506022975/989190078205157506/unknown.png",
+    "_unik": "b7b45d8a64ae7f8d2bd549a9f726d5114d3272509f0eb40281e6a01dc581e237",
+    "defensive_team": {
+        "heroes": [
+            {
+                "name": "Lars",
+                "power": "94985"
+            },
+            {
+                "name": "Krista",
+                "power": "81742"
+            },
+            {
+                "name": "Jorgen",
+                "power": "82570"
+            },
+            {
+                "name": "Astaroth",
+                "power": "506"
+            },
+            {
+                "name": "Celeste",
+                "power": "94890"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 354,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Yasmine",
+                "power": "91309"
+            },
+            {
+                "name": "Elmir",
+                "power": "109525"
+            },
+            {
+                "name": "Sebastian",
+                "power": "88071"
+            },
+            {
+                "name": "Dorian",
+                "power": "94377"
+            },
+            {
+                "name": "Astaroth",
+                "power": "102043"
+            }
+        ],
+        "index": " Astaroth Elmir Yasmine Sebastian Dorian",
+        "power": 485,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://cdn.discordapp.com/attachments/988510802506022975/989190078205157506/unknown.png",
+    "_unik": "b7b45d8a64ae7f8d2bd549a9f726d5114d3272509f0eb40281e6a01dc581e237",
+    "defensive_team": {
+        "heroes": [
+            {
+                "name": "Lars",
+                "power": "94985"
+            },
+            {
+                "name": "Krista",
+                "power": "81742"
+            },
+            {
+                "name": "Jorgen",
+                "power": "82570"
+            },
+            {
+                "name": "Astaroth",
+                "power": "506"
+            },
+            {
+                "name": "Celeste",
+                "power": "94890"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 354,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Yasmine",
+                "power": "91309"
+            },
+            {
+                "name": "Elmir",
+                "power": "109525"
+            },
+            {
+                "name": "Sebastian",
+                "power": "88071"
+            },
+            {
+                "name": "Dorian",
+                "power": "94377"
+            },
+            {
+                "name": "Astaroth",
+                "power": "102043"
+            }
+        ],
+        "index": " Astaroth Elmir Yasmine Sebastian Dorian",
+        "power": 485,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://cdn.discordapp.com/attachments/988510802506022975/989190078205157506/unknown.png",
+    "_unik": "b7b45d8a64ae7f8d2bd549a9f726d5114d3272509f0eb40281e6a01dc581e237",
+    "defensive_team": {
+        "heroes": [
+            {
+                "name": "Lars",
+                "power": "94985"
+            },
+            {
+                "name": "Krista",
+                "power": "81742"
+            },
+            {
+                "name": "Jorgen",
+                "power": "82570"
+            },
+            {
+                "name": "Astaroth",
+                "power": "506"
+            },
+            {
+                "name": "Celeste",
+                "power": "94890"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 354,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Yasmine",
+                "power": "91309"
+            },
+            {
+                "name": "Elmir",
+                "power": "109525"
+            },
+            {
+                "name": "Sebastian",
+                "power": "88071"
+            },
+            {
+                "name": "Dorian",
+                "power": "94377"
+            },
+            {
+                "name": "Astaroth",
+                "power": "102043"
+            }
+        ],
+        "index": " Astaroth Elmir Yasmine Sebastian Dorian",
+        "power": 485,
+        "result": "Victory"
+    }
+}{
+    "_image_url": "https://cdn.discordapp.com/attachments/988510802506022975/989190078205157506/unknown.png",
+    "_unik": "b7b45d8a64ae7f8d2bd549a9f726d5114d3272509f0eb40281e6a01dc581e237",
+    "defensive_team": {
+        "heroes": [
+            {
+                "name": "Lars",
+                "power": "94985"
+            },
+            {
+                "name": "Krista",
+                "power": "81742"
+            },
+            {
+                "name": "Jorgen",
+                "power": "82570"
+            },
+            {
+                "name": "Astaroth",
+                "power": "506"
+            },
+            {
+                "name": "Celeste",
+                "power": "94890"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "player": "Server",
+        "power": 354,
+        "result": "Defeat",
+        "server": "Heroes"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Yasmine",
+                "power": "91309"
+            },
+            {
+                "name": "Elmir",
+                "power": "109525"
+            },
+            {
+                "name": "Sebastian",
+                "power": "88071"
+            },
+            {
+                "name": "Dorian",
+                "power": "94377"
+            },
+            {
+                "name": "Astaroth",
+                "power": "102043"
+            }
+        ],
+        "index": " Astaroth Elmir Yasmine Sebastian Dorian",
+        "player": "-2",
+        "power": 485,
+        "result": "Victory",
+        "server": "LIVER"
+    },
+    "poster": "stan (S297 FR)"
+}{
+    "_image_url": "https://cdn.discordapp.com/attachments/988510802506022975/989190078205157506/unknown.png",
+    "_unik": "b7b45d8a64ae7f8d2bd549a9f726d5114d3272509f0eb40281e6a01dc581e237",
+    "defensive_team": {
+        "heroes": [
+            {
+                "name": "Lars",
+                "power": "94985"
+            },
+            {
+                "name": "Krista",
+                "power": "81742"
+            },
+            {
+                "name": "Jorgen",
+                "power": "82570"
+            },
+            {
+                "name": "Astaroth",
+                "power": "506"
+            },
+            {
+                "name": "Celeste",
+                "power": "94890"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 354,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Yasmine",
+                "power": "91309"
+            },
+            {
+                "name": "Elmir",
+                "power": "109525"
+            },
+            {
+                "name": "Sebastian",
+                "power": "88071"
+            },
+            {
+                "name": "Dorian",
+                "power": "94377"
+            },
+            {
+                "name": "Astaroth",
+                "power": "102043"
+            }
+        ],
+        "index": " Astaroth Elmir Yasmine Sebastian Dorian",
+        "power": 485,
+        "result": "Victory"
+    },
+    "poster": "stan (S297 FR)"
+}{
+    "_image_url": "https://cdn.discordapp.com/attachments/988510802506022975/989190078205157506/unknown.png",
+    "_unik": "b7b45d8a64ae7f8d2bd549a9f726d5114d3272509f0eb40281e6a01dc581e237",
+    "defensive_team": {
+        "heroes": [
+            {
+                "name": "Lars",
+                "power": "94985"
+            },
+            {
+                "name": "Krista",
+                "power": "81742"
+            },
+            {
+                "name": "Jorgen",
+                "power": "82570"
+            },
+            {
+                "name": "Astaroth",
+                "power": "506"
+            },
+            {
+                "name": "Celeste",
+                "power": "94890"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 354,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Yasmine",
+                "power": "91309"
+            },
+            {
+                "name": "Elmir",
+                "power": "109525"
+            },
+            {
+                "name": "Sebastian",
+                "power": "88071"
+            },
+            {
+                "name": "Dorian",
+                "power": "94377"
+            },
+            {
+                "name": "Astaroth",
+                "power": "102043"
+            }
+        ],
+        "index": " Astaroth Elmir Yasmine Sebastian Dorian",
+        "power": 485,
+        "result": "Victory"
+    },
+    "poster": "stan (S297 FR)"
+}{
+    "_image_url": "https://cdn.discordapp.com/attachments/988510802506022975/989190078205157506/unknown.png",
+    "_unik": "b7b45d8a64ae7f8d2bd549a9f726d5114d3272509f0eb40281e6a01dc581e237",
+    "defensive_team": {
+        "heroes": [
+            {
+                "name": "Lars",
+                "power": "94985"
+            },
+            {
+                "name": "Krista",
+                "power": "81742"
+            },
+            {
+                "name": "Jorgen",
+                "power": "82570"
+            },
+            {
+                "name": "Astaroth",
+                "power": "506"
+            },
+            {
+                "name": "Celeste",
+                "power": "94890"
+            }
+        ],
+        "index": " Astaroth Krista Celeste Jorgen Lars",
+        "power": 354,
+        "result": "Defeat"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Yasmine",
+                "power": "91309"
+            },
+            {
+                "name": "Elmir",
+                "power": "109525"
+            },
+            {
+                "name": "Sebastian",
+                "power": "88071"
+            },
+            {
+                "name": "Dorian",
+                "power": "94377"
+            },
+            {
+                "name": "Astaroth",
+                "power": "102043"
+            }
+        ],
+        "index": " Astaroth Elmir Yasmine Sebastian Dorian",
+        "power": 485,
+        "result": "Victory"
+    },
+    "poster": "stan (S297 FR)"
+}

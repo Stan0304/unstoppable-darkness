@@ -1,0 +1,58 @@
+{
+    "_image_url": "https://media.discordapp.net/attachments/988510802506022975/989205361577820190/image.png?width=1345&height=621",
+    "_unik": "6a463d64c383a0915f098f65199d9140bb523b2c11fe620d526eb1f24244299a",
+    "defensive_team": {
+        "heroes": [
+            {
+                "name": "Elmir",
+                "power": "109525"
+            },
+            {
+                "name": "Dante",
+                "power": "51875"
+            },
+            {
+                "name": "Aurora",
+                "power": "97527"
+            },
+            {
+                "name": "Dark",
+                "power": "94377"
+            },
+            {
+                "name": "Dorian",
+                "power": "99448"
+            }
+        ],
+        "index": " Aurora Elmir Dante Dark Dorian",
+        "power": 452,
+        "result": "Victory"
+    },
+    "offensive_team": {
+        "heroes": [
+            {
+                "name": "Astrid",
+                "power": "31094"
+            },
+            {
+                "name": "Amira",
+                "power": "4089"
+            },
+            {
+                "name": "Xe'Sha",
+                "power": "6044"
+            },
+            {
+                "name": "Qing",
+                "power": "8087"
+            },
+            {
+                "name": "K'arkh",
+                "power": "11202"
+            }
+        ],
+        "index": " K'arkh Qing Xe'Sha Amira Astrid",
+        "power": 60,
+        "result": "Defeat"
+    }
+}

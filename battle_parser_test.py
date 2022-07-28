@@ -1,9 +1,9 @@
-import battle_parser
+import battle_parser2
 import json
 
-f = open('logs/533dba1b9ce33e0421c77ea05673656449fa3bb179b5f61ac21b3663fb31bfd8-input.txt',"r")
+f = open('logs/b7b45d8a64ae7f8d2bd549a9f726d5114d3272509f0eb40281e6a01dc581e237-input.txt',"r")
 texts = f.readlines()
 
-result = battle_parser.parse_text(texts, 'local')
+result = battle_parser2.parse_text(texts, 'local', 'test')
 
 print(json.dumps(result, indent=4, sort_keys=True))

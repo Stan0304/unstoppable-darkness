@@ -6,15 +6,20 @@ import re
 heroes_position = ["Chabba","Aurora","Cleaver","Luther","Corvus","Ziri","Rufus","Astaroth","Galahad","Tristan","Ishmael","K'arkh","Markus","Elmir","Lilith","Andvari","Yasmine","Qing","Satori","Alvanor","Maya","Arachne","Dante","Krista","Keira","Judge","Morrigan","Celeste","Kai","Jhu","Sebastian","Nebula","Mojo","Heidi","Jorgen","Xe'Sha","Amira","Isaac","Orion","Daredevil","Ginger","Dark","Lars","Astrid","Cornelius","Faceless","Fox","Lian","Phobos","Artemis","Dorian","Peppy","Jet","Thea","Fafnir","Helios","Martha"]
 heroes_list_re = ".*(Chabba|Aurora|Cleaver|Luther|Corvus|Ziri|Rufus|Astaroth|Galahad|Tristan|Ishmael|K'arkh|Markus|Elmir|Lilith|Andvari|Yasmine|Qing|Satori|Alvanor|Maya|Arachne|Dante|Krista|Keira|Judge|Morrigan|Celeste|Kai|Jhu|Sebastian|Nebula|Mojo|Heidi|Jorgen|Xe'Sha|Amira|Isaac|Orion|Daredevil|Ginger|Dark|Lars|Astrid|Cornelius|Faceless|Fox|Lian|Phobos|Artemis|Dorian|Peppy|Jet|Thea|Fafnir|Helios|Martha).*"
 
-def parse_text(texts, image_url):
+# Members
+re_ud_members = ".*(bbbbb1991|Col3|Mami|totobreizh|Jay|Sabre|Shaman|Stan|iosing|Leonidas|LukeNico|Crazy|Arkantos|NESS|Gah|Momonga|Oskidoki|LGCACC|LIVER|spgs91|Slayer|Mirkwood|HiatusB|TheWolf|HiatusB|KaMaL|Thrux|nater|pspman99|Elf|Fury).*"
+
+def parse_text(texts, image_url, poster):
     result = {
         "offensive_team": {
             'heroes': []
         },
-        "deffensive_team": {
+        "defensive_team": {
             'heroes': []
         },
-        "_image_url": image_url
+        "record_id": 1,
+        "poster": poster,
+        "image_url": image_url
     }
     
     # Sha256 to test unik battle
@@ -25,18 +30,18 @@ def parse_text(texts, image_url):
     #    return {'message': 'battle already processed'}
 
     # log the input
-    f = open('logs/'+result['_unik']+'-input.txt', "a")
-    for text in texts:
-        f.write(text+'\n')
-    f.close()
+    #f = open('logs/'+result['_unik']+'-input.txt', "a")
+    #for text in texts:
+    #    f.write(text+'\n')
+    #f.close()
 
     # Parse teams
     get_team(result, texts, 'offensive_team')
-    get_team(result, texts, 'deffensive_team')
+    get_team(result, texts, 'defensive_team')
 
     # Parse results
     get_result(result, texts, 'offensive_team')
-    get_result(result, texts, 'deffensive_team')
+    get_result(result, texts, 'defensive_team')
 
     # compute the x middle of the screenshot
     x_mid = get_x_mid(result, texts)
@@ -46,16 +51,19 @@ def parse_text(texts, image_url):
 
     # Compute team power
     compute_team_power(result, 'offensive_team')
-    compute_team_power(result, 'deffensive_team')
+    compute_team_power(result, 'defensive_team')
 
     # Compute index
     compute_team_index(result, 'offensive_team')
-    compute_team_index(result, 'deffensive_team')
+    compute_team_index(result, 'defensive_team')
     
+    # Get team member
+    get_member(result, texts)
+
     # log the input
-    f = open('logs/'+result['_unik']+"-output.txt", "a")
-    f.write(json.dumps(result, indent=4, sort_keys=True))
-    f.close()
+    #f = open('logs/'+result['_unik']+"-output.txt", "a")
+    #f.write(json.dumps(result, indent=4, sort_keys=True))
+    #f.close()
 
     return result
 
@@ -114,7 +122,7 @@ def get_power(result, texts, team, x_mid):
             elif x_min - previous_x_max < 7 \
                 and x_min - previous_x_max > -7 \
                 and x_max > x_mid:
-                result['deffensive_team']['heroes'][count_deffensive]['power'] = previous_pwr+pwr
+                result['defensive_team']['heroes'][count_deffensive]['power'] = previous_pwr+pwr
                 count_deffensive=count_deffensive+1
                 previous_x_max = 0
                 previous_pwr = ""
@@ -124,7 +132,7 @@ def get_power(result, texts, team, x_mid):
                 previous_x_max = x_max
                 previous_pwr = pwr
             elif previous_pwr != "" and previous_x_max > x_mid and int(previous_pwr) > 100:
-                result['deffensive_team']['heroes'][count_deffensive]['power'] = previous_pwr
+                result['defensive_team']['heroes'][count_deffensive]['power'] = previous_pwr
                 count_deffensive=count_deffensive+1
                 previous_x_max = x_max
                 previous_pwr = pwr
@@ -133,7 +141,7 @@ def get_power(result, texts, team, x_mid):
                 previous_pwr = pwr
 
         if count_offensive >= len(result['offensive_team']['heroes']) \
-            and count_deffensive >= len(result['deffensive_team']['heroes']):
+            and count_deffensive >= len(result['defensive_team']['heroes']):
             break
 
 def get_result(result, texts, team):
@@ -144,7 +152,6 @@ def get_result(result, texts, team):
     # Read the previous block
     previous_block = readblock(texts[i-2], texts[i-1])
     result[team]['result'] = previous_block['text']
-
 
 def compute_team_power(result, team):
     pwr = 0
@@ -158,13 +165,13 @@ def compute_team_index(result, team):
     for hero_pos in heroes_position:
         for hero in result[team]['heroes']:
             if hero['name'] == hero_pos:
-                index = index + ' ' + hero_pos
-    result[team]['index'] = index
+                index = index + ';' + hero_pos
+    result[team]['index'] = index + ';'
 
 
 def get_x_mid(result, texts):
     l_hero = result['offensive_team']['heroes'][0]['name']
-    r_hero = result['deffensive_team']['heroes'][0]['name']
+    r_hero = result['defensive_team']['heroes'][0]['name']
 
     l_hero_block = get_block(texts, l_hero)
     r_hero_block = get_block(texts, r_hero)
@@ -189,7 +196,7 @@ def get_block(texts, search_token, i=0):
 
 def team_jump(texts, team):
     i = jump(texts, ['Victory', 'Defeat'], 0)
-    if team == 'deffensive_team':
+    if team == 'defensive_team':
         i = jump(texts, ['Damage'], i)
     return i
 
@@ -209,6 +216,18 @@ def jump(texts, search_tokens, i):
         if found:
             break
     return i
+
+def get_member(result, texts):
+    i = 0
+
+    while i < len(texts):
+        block = readblock(texts[i], texts[i+1])
+        i=i+2
+
+        member = re.findall(re_ud_members, block['text'])
+        if 0 < len(member):
+            result['player'] = member[0]
+
 
 # format a line
 def readblock(line_text,line_bounds):
